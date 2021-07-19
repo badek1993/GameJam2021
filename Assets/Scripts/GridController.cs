@@ -7,6 +7,7 @@ public class GridController : MonoBehaviour
     [System.NonSerialized]
     public Tile[,] TileGrid;
     public Vector2Int GridSize;
+    public GameObject TilesHolder;
 
     void Start()
     {
