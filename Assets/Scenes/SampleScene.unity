@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -118,14 +118,1213 @@ NavMeshSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &8111029
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.94119173
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!4 &8111030 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 8111029}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8111031 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 8111029}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8111032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8111031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 1
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1001 &9856844
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (22)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!1001 &25145172
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (27)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!1001 &26249132
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.94119173
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!4 &26249133 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 26249132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &26249134 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 26249132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &26249135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26249134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 1
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1001 &26305739
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (32)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!1 &50910272 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1235165692}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &50910273 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1235165692}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &50910274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50910272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 1
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1 &55192709 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 777386990}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &55192710 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 777386990}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &55192711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55192709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1 &90344336 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 534197224}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &90344337 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 534197224}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &90344338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90344336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1 &105771275 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1452231465}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &105771276 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1452231465}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &105771277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105771275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1001 &178099268
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.058808267
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (20)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!1001 &229592560
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!1 &252260330 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1939600067}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &252260331 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1939600067}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &252260332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252260330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1001 &333663953
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (18)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!1 &379808808 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 866310825}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &379808809 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 866310825}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &379808810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379808808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1001 &414627049
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (33)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!1 &473529345 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 868654214}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &473529346 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 868654214}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &473529347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473529345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1001 &516856714
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (34)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!1001 &527803902
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.058808267
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!4 &527803903 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 527803902}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &527803904 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 527803902}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &527803905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527803904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1001 &534197224
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (30)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!1 &565399086 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 9856844}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &565399087 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 9856844}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &565399088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565399086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1001 &642192363
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.058808267
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!4 &642192364 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 642192363}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &642192365 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 642192363}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &642192366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642192365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1 &682802739 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 26305739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &682802740 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 26305739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &682802741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682802739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
   - component: {fileID: 705507995}
@@ -141,15 +1340,18 @@ GameObject:
 Light:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   m_Enabled: 1
-  serializedVersion: 8
+  serializedVersion: 10
   m_Type: 1
+  m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -159,6 +1361,24 @@ Light:
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
@@ -166,32 +1386,533 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+  m_RenderingLayerMask: 1
   m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!4 &705507995
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: 5, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &710232218 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1573995347}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &710232219 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1573995347}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &710232220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710232218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1 &727723407 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 2052944525}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &727723408 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 2052944525}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &727723409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727723407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1001 &777386990
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!1 &846624858 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 178099268}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &846624859 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 178099268}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &846624860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846624858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1001 &866310825
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (31)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!1001 &868654214
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (28)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!1 &902809936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 902809938}
+  - component: {fileID: 902809937}
+  - component: {fileID: 902809939}
+  m_Layer: 0
+  m_Name: TurnController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &902809937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902809936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66b683fd9ca3a774db9294fe6919789c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridController: {fileID: 1385148363}
+  normalState: {fileID: 902809939}
+  unitState: {fileID: 0}
+  infoState: {fileID: 0}
+  currentState: {fileID: 0}
+--- !u!4 &902809938
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902809936}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.2639048, y: 1.5513743, z: 1.8548687}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &902809939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902809936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1312715d2445e9940ac31ad498f05bee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnManager: {fileID: 902809937}
+--- !u!1001 &921050798
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!1001 &940573282
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!1 &950856391 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1844553562}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &950856392 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1844553562}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &950856393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 950856391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
   - component: {fileID: 963194228}
@@ -208,23 +1929,26 @@ GameObject:
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
 --- !u!20 &963194227
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -234,7 +1958,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 32.2
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -256,12 +1980,1838 @@ Camera:
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
+  m_LocalRotation: {x: 0.46193978, y: 0.33141357, z: -0.19134171, w: 0.8001032}
+  m_LocalPosition: {x: 18.326584, y: 2.8344097, z: -5.5294986}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1177948790}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 60, y: 45, z: 0}
+--- !u!1 &1051812353 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 516856714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1051812354 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 516856714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1051812355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051812353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1 &1166936921 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 229592560}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1166936922 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 229592560}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1166936923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166936921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1 &1177948789
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1177948790}
+  m_Layer: 0
+  m_Name: CameraHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1177948790
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177948789}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: -18.326584, y: 17.16559, z: -4.4705014}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 963194228}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1184194157 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 921050798}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1184194158 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 921050798}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1184194159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184194157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1001 &1235165692
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.94119173
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (35)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!1001 &1243646255
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.94119173
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!4 &1243646256 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1243646255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1243646257 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1243646255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1243646258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243646257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 1
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1 &1265462865 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1325255170}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1265462866 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1325255170}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1265462867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265462865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1001 &1314592502
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (24)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!1001 &1323795477
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (21)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!1001 &1325255170
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.058808267
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (17)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!1 &1349137032 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 940573282}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1349137033 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 940573282}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1349137034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349137032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1 &1377393444 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1431812746}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1377393445 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1431812746}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1377393446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377393444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1001 &1384541990
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!4 &1384541991 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1384541990}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1384541992 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1384541990}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1384541993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384541992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1 &1385148362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1385148364}
+  - component: {fileID: 1385148363}
+  m_Layer: 0
+  m_Name: GridController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1385148363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385148362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 711f1b7c3a248d142b249ebb8ab1b65f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GridSize: {x: 6, y: 6}
+  TilesHolder: {fileID: 2016958302}
+--- !u!4 &1385148364
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385148362}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.58859897, y: 1.6072083, z: 1.8531439}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1393729760
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (15)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!1001 &1431812746
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.058808267
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (29)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!1001 &1452231465
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.058808267
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (26)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!1001 &1509633727
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!4 &1509633728 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1509633727}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1509633729 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1509633727}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1509633730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509633729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1 &1541711317 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1702195055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1541711318 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1702195055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1541711319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541711317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1001 &1573995347
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (19)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!1 &1580278628 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 333663953}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1580278629 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 333663953}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1580278630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580278628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1 &1649011471 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1680085008}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1649011472 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1680085008}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1649011473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649011471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1001 &1680085008
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (16)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!1001 &1702195055
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (25)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!1001 &1842052942
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!4 &1842052943 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1842052942}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1842052944 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1842052942}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1842052945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842052944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1001 &1844553562
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.058808267
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!1 &1856738483 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 25145172}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1856738484 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 25145172}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1856738485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856738483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1 &1859585182 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1393729760}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1859585183 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1393729760}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1859585184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859585182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1 &1909754409 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 414627049}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1909754410 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 414627049}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1909754411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909754409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1001 &1939103098
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!4 &1939103099 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1939103098}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1939103100 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1939103098}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1939103101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939103100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1001 &1939600067
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+--- !u!1 &2016958302
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2016958303}
+  m_Layer: 0
+  m_Name: Tiles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2016958303
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016958302}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1384541991}
+  - {fileID: 1842052943}
+  - {fileID: 527803903}
+  - {fileID: 26249133}
+  - {fileID: 1939103099}
+  - {fileID: 1509633728}
+  - {fileID: 8111030}
+  - {fileID: 1243646256}
+  - {fileID: 642192364}
+  - {fileID: 55192710}
+  - {fileID: 1166936922}
+  - {fileID: 950856392}
+  - {fileID: 1184194158}
+  - {fileID: 252260331}
+  - {fileID: 1349137033}
+  - {fileID: 1859585183}
+  - {fileID: 1649011472}
+  - {fileID: 1265462866}
+  - {fileID: 1580278629}
+  - {fileID: 710232219}
+  - {fileID: 846624859}
+  - {fileID: 2041860822}
+  - {fileID: 565399087}
+  - {fileID: 727723408}
+  - {fileID: 2037569329}
+  - {fileID: 1541711318}
+  - {fileID: 105771276}
+  - {fileID: 1856738484}
+  - {fileID: 473529346}
+  - {fileID: 1377393445}
+  - {fileID: 90344337}
+  - {fileID: 379808809}
+  - {fileID: 682802740}
+  - {fileID: 1909754410}
+  - {fileID: 1051812354}
+  - {fileID: 50910273}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2037569328 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1314592502}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2037569329 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1314592502}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2037569330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037569328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1 &2041860821 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1323795477}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2041860822 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+  m_PrefabInstance: {fileID: 1323795477}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2041860823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041860821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72347a1424a8b034db8e32c5b3d76c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: 0
+  unit: {fileID: 0}
+  visited: 0
+  gridPos: {x: 0, y: 0}
+  pathFindingRange: 0
+--- !u!1001 &2052944525
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2016958303}
+    m_Modifications:
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492214018484925655, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016795880326606445, guid: 555b0a410f8acc3498d48880144cb868, type: 3}
+      propertyPath: m_Name
+      value: polanka z kwiatami tile (23)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 555b0a410f8acc3498d48880144cb868, type: 3}

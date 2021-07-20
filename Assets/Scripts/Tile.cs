@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class Tile : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public bool obstacle;
+    public Unit unit;
+    public bool visited;
+    public Vector2Int gridPos;
+    public int pathFindingRange;
+    private void Start()
     {
-        
     }
 
-    // Update is called once per frame
-    void Update()
+    public void FindGridPos()
     {
-        
+        visited = false;
+        gridPos.x = (int)transform.position.x / 2;
+        gridPos.y = (int)transform.position.z / 2;
     }
 }
